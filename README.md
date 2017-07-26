@@ -3,7 +3,7 @@
 ## Description
 Brand new easy friendly website source for searching your local weather conditions.
 
-## Featured
+## Feature
 - Support Weather broadcast
 - To Be Continued...
 
