@@ -55,13 +55,13 @@
                     <div class="am-u-md-12 am-u-sm-centered">
                         <ul id="form-tabs" class="am-nav am-nav-pills am-nav-justify am-margin-bottom music-tabs">
                             <li data-filter="name">
-                                 <a href="/1/index.php">当地城市</a>
+                                 <a href="/index.php">当地城市</a>
                             </li>
                            <li class="am-active" data-filter="id">
                                 <a> 查询其他天气</a>
                             </li>
                             <li data-filter="url">
-                                <a>关于</a>
+                                <a href="/other.php">其他</a>
                             </li>
                         </ul>
                                          <?php
@@ -205,6 +205,7 @@
 						<li>2017.07.21 <code>v1.0.1</code>寻找查询天气接口，未果，无奈使用他人网站插件进行完善</li>
 						<li>2017.07.23 <code>v1.0.2</code> 基于一个大佬框架，进行美化</li>
 						<li>2017.07.23 <code>v1.0.2</code> 修复各种bug</li>
+						<li>2017.07.26 <code>v1.0.3</code> 经过c语言和git的洗礼后，继续修改我的php,轮流学习,感谢Jimmyho大姐的帮忙。</li>
                     </ul>
                 </div>
             </div>
@@ -216,10 +217,11 @@
                     <span data-am-modal-close class="am-close">&times;</span>
                 </div>
                 <div class="am-popup-bd">
-                    <p>本站由@tao开发</p>
+                    <p>本站由@taoxichen开发</p>
 					<P>基于一个大佬框架 github：https://github.com/maicong/music</P>
 					<P>使用天气插件:http://www.tianqi.com/plugin/</p>
-                    <p>提价bug联系Q1349801879</p>
+                    <p>提价bug地址：http://github.com/taoxichen/weather/issues/new</p>
+					<p>如有侵犯，申诉邮箱：1349801879@qq.com</p>
 					
                 </div>
             </div>
@@ -233,3 +235,4 @@
     <script src="static/music.js?v<?php echo MC_VERSION; ?>"></script>
 </body>
 </html>
+
