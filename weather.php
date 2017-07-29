@@ -8,17 +8,13 @@
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="author" content="maicong.me">
+    <meta name="author" content="taoxichen">
     <meta name="keywords" content="天气查询网站、在线查询">
     <meta name="description" content="天气查询网站、在线查询">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="">
     <meta name="application-name" content="天气查询网站">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="static/favicon.ico">
-    <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
-    <link rel="canonical" href="http://www.tait.vip">
+    <link rel="canonical" href="https://www.tait.vip">
     <link rel="stylesheet" href="//cdn.bootcss.com/amazeui/2.3.0/css/amazeui.min.css">
     <link rel="stylesheet" href="static/style.css?v<?php echo MC_VERSION; ?>">
 </head>
@@ -26,7 +22,7 @@
 	<header class="am-topbar am-topbar-fixed-top">
         <div class="am-container">
             <h1 class="am-topbar-brand">
-              <a href="/">天气查询网站</a>
+              <a href="./">天气查询网站</a>
             </h1>
             <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only" data-am-collapse="{target: '#collapse-head'}">
               <span class="am-sr-only">导航切换</span>
@@ -35,10 +31,10 @@
             <nav class="am-collapse am-topbar-collapse am-fr" id="collapse-head">
                 <ul class="am-nav am-nav-pills am-topbar-nav">
                     <li>
-                      <a href="//www.tait.vip">源码下载</a>
+                      <a href="https://www.tait.vip">源码下载</a>
                     </li>
                     <li class="am-active">
-                      <a href="/index.php">天气查询网站</a>
+                      <a href="./">天气查询网站</a>
                     </li>
                 </ul>
             </nav>
@@ -55,13 +51,13 @@
                     <div class="am-u-md-12 am-u-sm-centered">
                         <ul id="form-tabs" class="am-nav am-nav-pills am-nav-justify am-margin-bottom music-tabs">
                             <li data-filter="name">
-                                 <a href="/index.php">当地城市</a>
+                                 <a href="./index.php">当地城市</a>
                             </li>
                            <li class="am-active" data-filter="id">
-                                <a> 查询其他天气</a>
+                                <a>查询其他天气</a>
                             </li>
                             <li data-filter="url">
-                                <a href="/other.php">其他</a>
+                                <a href="./other.php">其他</a>
                             </li>
                         </ul>
                                          <?php
@@ -189,7 +185,6 @@
                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29844491&auto=0&height=66"></iframe>
                     <div class="more">查看更多</div>
                 </div>
-
                 </div>
             </div>
         </div>
@@ -220,7 +215,7 @@
                     <p>本站由@taoxichen开发</p>
 					<P>基于一个大佬框架 github：https://github.com/maicong/music</P>
 					<P>使用天气插件:http://www.tianqi.com/plugin/</p>
-                    <p>提价bug地址：http://github.com/taoxichen/weather/issues/new</p>
+                    <p>提价bug地址：https://github.com/taoxichen/weather/issues/new</p>
 					<p>如有侵犯，申诉邮箱：1349801879@qq.com</p>
 					
                 </div>
