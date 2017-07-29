@@ -13,4 +13,4 @@ https://tools.jimmyho.top/weather/
 
 ## Copyright
 Created by taoxichen.
-Everyone can fork, rebuild or republish it in open source.
+Everyone can fork, rebuild or republish it with open source.
