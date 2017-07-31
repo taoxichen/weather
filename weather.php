@@ -8,25 +8,21 @@
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="author" content="maicong.me">
+    <meta name="author" content="taoxichen">
     <meta name="keywords" content="天气查询网站、在线查询">
     <meta name="description" content="天气查询网站、在线查询">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="">
     <meta name="application-name" content="天气查询网站">
     <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="static/favicon.ico">
-    <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
-    <link rel="canonical" href="http://www.tait.vip">
+    <link rel="canonical" href="https://www.tait.vip">
     <link rel="stylesheet" href="//cdn.bootcss.com/amazeui/2.3.0/css/amazeui.min.css">
-    <link rel="stylesheet" href="static/style.css?v<?php echo MC_VERSION; ?>">
 </head>
 <body>
 	<header class="am-topbar am-topbar-fixed-top">
         <div class="am-container">
             <h1 class="am-topbar-brand">
-              <a href="/">天气查询网站</a>
+              <a href="./">天气查询网站</a>
             </h1>
             <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only" data-am-collapse="{target: '#collapse-head'}">
               <span class="am-sr-only">导航切换</span>
@@ -35,10 +31,10 @@
             <nav class="am-collapse am-topbar-collapse am-fr" id="collapse-head">
                 <ul class="am-nav am-nav-pills am-topbar-nav">
                     <li>
-                      <a href="//www.tait.vip">源码下载</a>
+                      <a href="https://www.tait.vip">源码下载</a>
                     </li>
                     <li class="am-active">
-                      <a href="/index.php">天气查询网站</a>
+                      <a href="./index.php">天气查询网站</a>
                     </li>
                 </ul>
             </nav>
@@ -55,13 +51,13 @@
                     <div class="am-u-md-12 am-u-sm-centered">
                         <ul id="form-tabs" class="am-nav am-nav-pills am-nav-justify am-margin-bottom music-tabs">
                             <li data-filter="name">
-                                 <a href="/index.php">当地城市</a>
+                                 <a href="./index.php">当地城市</a>
                             </li>
                            <li class="am-active" data-filter="id">
                                 <a> 查询其他天气</a>
                             </li>
                             <li data-filter="url">
-                                <a href="/other.php">其他</a>
+                                <a href="./other.php">其他</a>
                             </li>
                         </ul>
                                          <?php
@@ -204,7 +200,7 @@
 						<li>2017.07.21 <code>v1.0.1</code>寻找查询天气接口，未果，无奈使用他人网站插件进行完善</li>
 						<li>2017.07.23 <code>v1.0.2</code> 基于一个大佬框架，进行美化</li>
 						<li>2017.07.23 <code>v1.0.2</code> 修复各种bug</li>
-						<li>2017.07.26 <code>v1.0.3</code> 经过c语言和git的洗礼后，继续修改我的php,轮流学习,感谢Jimmyho大姐的帮忙。</li>
+						<li>2017.07.26 <code>v1.0.3</code> 经过c语言和git的洗礼后，继续修改我的php,轮流学习,感谢Jimmyho的帮忙。</li>
                     </ul>
                 </div>
             </div>
@@ -219,19 +215,15 @@
                     <p>本站由@taoxichen开发</p>
 					<P>基于一个大佬框架 github：https://github.com/maicong/music</P>
 					<P>使用天气插件:http://www.tianqi.com/plugin/</p>
-                    <p>提价bug地址：http://github.com/taoxichen/weather/issues/new</p>
-					<p>如有侵犯，申诉邮箱：1349801879@qq.com</p>
+                    <p>提交bug地址：https://github.com/taoxichen/weather/issues/new</p>
+					<p>如有侵犯您的权利，申诉邮箱：1349801879@qq.com</p>
 					
                 </div>
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <p class="am-text-sm">如果遇到bug，请 <a href="https://www.tait.vip" target="_blank" rel="author">@tao</a> © 2017进行留言-<?php echo date('Y', time()); ?> <a href="javascript:void(0)" data-am-modal="{target: '#update-info'}">更新日志</a> <a href="javascript:void(0)" data-am-modal="{target: '#copr-info'}">版权声明</a> <a href="https://www.tait.vip" target="_blank">开源共享</a></p>
-    </footer>
     <script src="//cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/amazeui/2.3.0/js/amazeui.min.js"></script>
-    <script src="static/music.js?v<?php echo MC_VERSION; ?>"></script>
 </body>
 </html>
 
