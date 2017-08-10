@@ -11,7 +11,8 @@ The Brand new easy friendly website for searching your local weather conditions 
 - Chinese Calendar is coming... 
 
 ## Demo
-https://tools.jimmyho.top/weather/
+
+http://tools.tait.vip/
 
 ## Copyright
 Created by taoxichen.
